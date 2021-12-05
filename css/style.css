@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    #navbar {
+        padding: 10px 20px;
+    }
+}
+
+#navbar {
+    background: #eee;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    padding: 30px 60px;
+}
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list > li {
+    margin-left: 20px;
+}
+
+.nav-list > li > a {
+    text-decoration: none !important;
+}
+
+#welcome-section {
+    padding-top: 200px;
+    box-sizing: border-box !important;
+    color: #fff;
+    background: #888;
+    height: 100vh !important;
+    text-align: center;
+}
